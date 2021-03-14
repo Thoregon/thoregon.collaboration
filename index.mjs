@@ -12,3 +12,5 @@ export const thoregonCollaborationWebservice = new ThoregonCollaborationWebservi
     .addTerminalRoot('collaboration')
     .start();
 
+export { default as CollaborationChannelQuery } from "./lib/thoregon/queries/collaborationchannelquery.mjs";
+
